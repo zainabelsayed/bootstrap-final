@@ -1,0 +1,282 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  overflow-x: hidden;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.hero-section {
+  background-image: url("./MoGo/Layer\ 15.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+}
+nav .nav-link {
+  font-size: 0.8rem;
+  color: white !important;
+}
+nav ul li {
+  padding: 0.5rem 0.8rem;
+}
+nav .nav-link:hover {
+  color: #fce38a !important;
+  border-bottom: 0.2rem solid #fce38a;
+}
+.hero-section__header {
+  padding: 5rem;
+}
+.hero-section__creative-font {
+  font-family: "Courgette", cursive;
+}
+.hero-section__header .hero-section__header-head {
+  font-size: 6rem;
+}
+.hero-section__header .hero-section__header-head::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 4rem;
+  height: 0.2rem;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.h2-underline::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 4rem;
+  height: 0.17rem;
+  background-color: #f38181;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+.client-underline::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 4rem;
+  height: 0.17rem;
+  background-color: #f38181;
+  margin-top: 1rem;
+}
+.text-orange {
+  color: #f38181;
+}
+.image-container:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 0%;
+  top: 0%;
+  border-bottom: 0.5rem solid #95e1d3;
+  border-right: 0.5rem solid #95e1d3;
+  transition: 0.5s ease;
+}
+.image-container:hover .overlay {
+  top: -3%;
+  left: -2%;
+  opacity: 0.9;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-image: linear-gradient(to bottom, #f38181, #fce38a);
+}
+.icon {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.figure-container:hover .overlay {
+  opacity: 0.9;
+}
+.bg-terquaze {
+  background-color: #95e1d3;
+}
+.blog-date {
+  width: 3rem;
+  position: absolute;
+  top: 60%;
+  left: -3%;
+}
+.display-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: start;
+  align-items: center;
+  gap: 0.2rem;
+}
+.display-grid figure {
+  padding: 0;
+  margin: 0;
+}
+.counter-info {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7rem;
+}
+.counter-head {
+  font-size: 3rem;
+}
+.text-terquaze {
+  color: #95e1d3;
+}
+.bg-devices {
+  background-image: url("./MoGo/Layer\ 45.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.bg-devices .bg-devices__tablet {
+  width: 40%;
+}
+.bg-devices .bg-devices__mobile {
+  top: 57%;
+  left: 55%;
+}
+.accordion-fs {
+  font-size: 0.8rem;
+}
+.accordion-height {
+  height: 5rem;
+}
+.accordion-scroll {
+  cursor: pointer;
+}
+.accordion-scroll::-webkit-scrollbar {
+  width: 5px !important;
+}
+.accordion-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px !important;
+}
+.accordion-scroll::-webkit-scrollbar-thumb {
+  background: #95e1d3;
+  padding: 5rem;
+}
+.accordion-scroll::-webkit-scrollbar-thumb:hover {
+  background: #84cabd;
+}
+.border-trequaze {
+  border-color: #95e1d3 !important;
+}
+.image-overlay-team:hover:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0%;
+  top: 0%;
+  border-bottom: 0.7rem solid #95e1d3;
+  border-right: 0.7rem solid #95e1d3;
+  transition: 0.5s ease;
+}
+.image-overlay-team:hover .overlay {
+  top: -2%;
+  left: -2%;
+  opacity: 0.9;
+}
+.bg-yellow {
+  background-color: #fce38a;
+  color: #f38181;
+  border-color: #f38181 !important;
+  font-size: 1.2rem;
+  transition: 0.5s ease;
+}
+.bg-yellow:hover {
+  background-color: #f38181;
+  color: white;
+  transition: 0.5s ease;
+}
+.bg-clients {
+  background-image: url("./MoGo/Rectangle\ 22.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-map {
+  background-image: url("./MoGo/Layer\ 59.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 1200px) {
+  :root {
+    font-size: 12.5px !important;
+  }
+}
+@media (max-width: 992px) and (min-width: 576px) {
+  :root {
+    font-size: 12.5px;
+  }
+  .bg-devices {
+    margin-bottom: 10rem;
+  }
+  .bg-devices .bg-devices__tablet {
+    width: 50%;
+  }
+  .bg-devices .bg-devices__mobile {
+    top: 70%;
+    left: 55%;
+  }
+}
+@media (max-width: 576px) {
+  :root {
+    font-size: 12.5px !important;
+  }
+  .hero-section__header {
+    padding: 2rem;
+  }
+  .services {
+    border: none !important;
+    padding-bottom: 0 !important;
+    margin-top: 0rem !important;
+  }
+   .bg-devices {
+    background-image: none;
+  } 
+  .bg-devices__tablet {
+    width: 100% !important;
+  }
+  .bg-mobile{
+    background-image: url("./MoGo/Layer\ 45.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+  .work-order {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    box-ordinal-group: 2;
+  }
+  footer {
+      width: 100%;
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    box-ordinal-group: 3;
+  }
+  
+}
